@@ -22,6 +22,11 @@ int SquareMatrix(int mat[N][M], int n, int m)
 				* Now, trying to see if part of a larger cube:
 				*/
 				int value = mat[i][j];
+
+				/*
+				* First, we must be certain that our encompassing cube is not escaping
+				* the bounds of the matrix
+				*/
 				while (i+currentCubeSize < n && j + currentCubeSize < m) {
 					/*
 					* First, checking the row bellow the current cube

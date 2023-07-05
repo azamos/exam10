@@ -24,16 +24,16 @@ int main(void)
     if (SquareMatrix(mat3,5,4) !=0)
         printf("SquareMatrix  function is wrong for train1_3 (-6)\n");
 
- //   
- //   //Q2
-	//if (mystrstr("abracadabra","ab") != 2)
-	//	printf("mystrstr function is wrong for train2-1  (-7)\n");
+    
+    //Q2
+	if (mystrstr("abracadabra","ab") != 2)
+		printf("mystrstr function is wrong for train2-1  (-7)\n");
 
-	//if (mystrstr("abracadabra","a") != 5)
-	//	printf("mystrstr function is wrong for train2-2  (-7)\n");
+	if (mystrstr("abracadabra","a") != 5)
+		printf("mystrstr function is wrong for train2-2  (-7)\n");
 
-	//if (mystrstr("bbbb","bb") != 3)
-	//	printf("mystrstr function is wrong for train2-3  (-6)\n");
+	if (mystrstr("bbbb","bb") != 3)
+		printf("mystrstr function is wrong for train2-3  (-6)\n");
 
  //   //Q3
  //   int a1[8]={5,2,4,7,8,9,5, -1};
