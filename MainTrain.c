@@ -35,25 +35,25 @@ int main(void)
 	if (mystrstr("bbbb","bb") != 3)
 		printf("mystrstr function is wrong for train2-3  (-6)\n");
 
- //   //Q3
- //   int a1[8]={5,2,4,7,8,9,5, -1};
- //   int res=0, num;
- //   num=bigger(a1, &res);
- //   if(count1<2)
- //       printf ("bigger function is not recursive (-10)\n");
- //   else{
- //      if (res!=24)
-	//		printf("bigger function is wrong for train3_1(-10)\n");
- //   }
- //   int a2[8]={5,2,4,7,8,9,2, -1};
- //      res=0;
- //    num=bigger(a2, &res);
- //   if(count1<2)
- //       printf ("bigger function is not recursive (-10)\n");
- //   else{
- //      if (res!=33)
-	//		printf("bigger function is wrong for train3_2  (-10)\n");
- //   }
+    //Q3
+    int a1[8]={5,2,4,7,8,9,5, -1};
+    int res=0, num;
+    num=bigger(a1, &res);
+    if(count1<2)
+        printf ("bigger function is not recursive (-10)\n");
+    else{
+       if (res!=24)
+			printf("bigger function is wrong for train3_1(-10)\n");
+    }
+    int a2[8]={5,2,4,7,8,9,2, -1};
+       res=0;
+     num=bigger(a2, &res);
+    if(count1<2)
+        printf ("bigger function is not recursive (-10)\n");
+    else{
+       if (res!=33)
+			printf("bigger function is wrong for train3_2  (-10)\n");
+    }
 
 
 	////4
